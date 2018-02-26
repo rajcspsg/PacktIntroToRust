@@ -1,0 +1,7 @@
+[package]
+name = "rust_colored"
+version = "0.1.0"
+authors = ["Rajkumar <raj.cs.psg@gmail.com>"]
+
+[dependencies]
+colored = "1.6.0"

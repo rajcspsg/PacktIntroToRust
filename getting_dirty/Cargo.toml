@@ -1,0 +1,14 @@
+[package]
+name = "getting_dirty"
+version = "0.1.0"
+authors = ["Rajkumar <raj.cs.psg@gmail.com>"]
+
+[dependencies]
+
+[[bin]]
+name = "message_passing"
+path = "src/message_passing.rs"
+
+[[bin]]
+name = "panicing_threads"
+path = "src/panicing_threads.rs"

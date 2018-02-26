@@ -1,0 +1,14 @@
+[package]
+name = "rust_trait_system"
+version = "0.1.0"
+authors = ["Rajkumar <raj.cs.psg@gmail.com>"]
+
+[dependencies]
+
+[[bin]]
+name = "my_trait"
+path = "src/trait_system.rs"
+
+[[bin]]
+name = "my_pattern"
+path = "src/pattern_matching.rs"

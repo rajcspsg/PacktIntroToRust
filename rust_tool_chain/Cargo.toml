@@ -1,0 +1,22 @@
+[package]
+name = "rust_tool_chain"
+version = "0.1.0"
+authors = ["Rajkumar <raj.cs.psg@gmail.com>"]
+
+[dependencies]
+time = "0.1.12"
+regex = "0.1.80"
+# mycrates = { path = "my_crates"}
+# mycrates = {git = "git_path"}
+
+[lib]
+name = "mylib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "mybin"
+path = "src/bin.rs"
+
+[[bin]]
+name = "hello_robot"
+path = "src/main.rs"

@@ -1,0 +1,7 @@
+[package]
+name = "finishing_touches"
+version = "0.1.0"
+authors = ["Rajkumar <raj.cs.psg@gmail.com>"]
+
+[dependencies]
+rand = "0.3"
